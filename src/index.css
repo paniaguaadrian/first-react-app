@@ -12,8 +12,35 @@
   --dark-color: #2c3e50;
   --text-color: #7f7f7f;
 }
+
+.header {
+  min-height: 25vh;
+  background: var(--main-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 4rem;
+  color: black;
+}
+
+.header__text {
+  font-size: 2rem;
+  color: black;
+}
+
 .wrapper {
-  min-height: 100vh;
+  min-height: 50vh;
   background: var(--main-color);
   display: flex;
   justify-content: center;
