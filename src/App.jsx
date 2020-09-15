@@ -7,7 +7,9 @@ function App() {
   return (
     //This is cool! We have a div here, not in index.html, and we style it anyway on index.css
     <div className="wrapper">
-      <Card />
+      <Card username="paniaguaadrian" />
+      <Card username="graciegregory" />
+      <Card username="ishandeveloper" />
     </div>
   );
 }
